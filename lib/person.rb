@@ -11,4 +11,6 @@ class Person
     @last_name = last_name
   end
   
+  def name 
+  
 end
