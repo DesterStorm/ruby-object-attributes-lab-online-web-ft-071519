@@ -15,8 +15,16 @@ class Person
     "#{@first_name} #{@last_name}".strip
   end
   
-  def job=(job_title)
-    
+  def initialize(job)
+    @singer = singer 
   end
   
+  def job=(singer)
+    singer = job
+    @singer = singer
+  end
+  
+  def job
+    "#{@singer}"
+  end
 end
