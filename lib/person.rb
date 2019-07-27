@@ -5,5 +5,8 @@ class Person
     @last_name = last_name
   end
   
+  def name
+    @name 
+  end
   
 end
