@@ -5,8 +5,8 @@ class Person
     @last_name = last_name
   end
   
-  def name
-    @name 
+  def name=(full_name)
+    @first_name, @last_name = full_name
   end
   
 end
